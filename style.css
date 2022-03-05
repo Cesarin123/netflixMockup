@@ -1,0 +1,87 @@
+body{
+    background-image: url("https://assets.nflxext.com/ffe/siteui/vlv3/ed0b5df9-ba9d-4534-bd09-57993daeda56/7802cce2-bec2-4c23-a2b0-c286eb73662d/MX-en-20220214-popsignuptwoweeks-perspective_alpha_website_large.jpg");
+}
+
+.header{
+    position: absolute;
+    width: 100%;
+    border-bottom: transparent;
+    left: 0;
+    top:0;
+    background-color: aqua;
+    
+}
+
+.netflix_log{
+    text-decoration: none;
+    width: 200px;
+    height: 100px;
+    display: inline-block;
+    margin-left: 3%;
+}
+
+.body_login{
+    margin:0 auto -236px;
+    min-height: 100vh;
+    background-color: beige;
+    max-width: 450px;
+}
+
+.body_login{
+    color: #333;
+    margin: 0 auto;
+    padding: 0 5%;
+}
+
+.box_login{
+    min-height: 660px;
+    padding: 60px 68px 40px;
+    margin-bottom: 90px;
+    border-radius: 4px;
+    background-color: yellow;
+}
+
+.main_login{
+    flex-grow: 1;
+}
+
+.main_login h1{
+    color: black;
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 28px;
+    margin-top: 25%;
+ 
+}
+
+.email input, 
+.password input{
+    width: 100%;
+    position: relative;
+    display: block;
+    border-radius: 4%;
+    background-color: rgba(0, 0, 0, .75);
+    padding: 16px 20px 0px;
+    padding-bottom: 5%;
+    margin-bottom: 5%;
+}
+
+.sign_button{
+    margin-top: 7%;
+    color: white;
+    cursor: pointer;
+    background: #e50914;
+    border-radius: 4px;
+    font-size: 16px;
+    margin: 24px 0 12px;
+    width: 114%;
+    padding: 16px;
+}
+
+.remember_me .checkbox{
+    cursor: pointer;
+    color: #b3b3b3;
+    top:0;
+    left:0;
+    margin-right: 10px;
+}
