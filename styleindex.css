@@ -17,6 +17,28 @@ body{
 .nav_avatar{
     width: 30px;
     object-fit: contain;
+    cursor: pointer;
+}
+.primary_navigation{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: cemter;
+}
+ul{
+    list-style-type: none;
+    padding:0;
+}
+li, a{
+    display: inline;
+    margin: 30px;
+    text-align: left;
+    color: #fff;
+    text-decoration: none;
+}
+.search_button, .notif_button{
+    width: 20px;
+    object-fit: contain;
 }
 .nav{
     position: fixed;
@@ -28,12 +50,22 @@ body{
     z-index: 1;
     transition-timing-function: ease-in;
     transition: all 0.5s;
+    font-size:1.2rem;
 }
 .logo_button{
     background-color: transparent;
     border: none;
     cursor: pointer;
 }
+.search,  .notifications {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+
 
 
 /* banner and header */
