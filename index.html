@@ -4,103 +4,85 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styleindex.css">
-    <title>netflixMockup</title>
+    <link rel="stylesheet" href="style.css">
+    <title>Netflix</title>
 </head>
 
 <body>
-<!-- navigation bar -->
-    <div id="nav" class="nav">
-        <button class="logo_button" href="#"><img class="nav_logo" src="images\netflix-logo.png" alt=""></button>
-        <a class="menu_trigger"></a>
-        <ul class="primary_navigation">
-            <li class="navigation_tab"><a href="#">Inicio</a></li>
-            <li class="navigation_tab"><a href="#">Series</a></li>
-            <li class="navigation_tab"><a href="#">Peliculas</a></li>
-            <li class="navigation_tab"><a href="#">Novedades</a></li>
-            <li class="navigation_tab"><a href="#">Mi lista</a></li>
-        </ul>
-        <button class="search" href="#"><img class="search_button" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTw5zznHK4PL9wfz5uhr4OqMWnSNZcaxr6wx1VoEXWEn-YOXtXz0XsG-RK-vc9HT9cSZXc&usqp=CAU"></button>
-        <button class="notifications" href="#"><img class="notif_button" src="https://spng.pngfind.com/pngs/s/4-49136_oojs-ui-icon-bell-bell-icon-blue-png.png"></button>
-        <img class="nav_avatar" src="images\netflix-avatar.png" alt="">
-    </div>
+    <header class="showcase">
+        
 
-<!-- header -->
-    <header class="banner">
-        <div class="contents_ban">
-            <h1 class="title_ban">La casa de papel</h1>
-            <div class="buttons_ban">
-                <button class="button_ban">Play</button>
-                <button class="button_ban">My List</button>
+        <div class="logo">
+            <img src="https://i.ibb.co/r5krrdz/logo.png">
+        </div>
+
+        <div class="showcase-content">
+            <div class="formm">
+                <form>
+                    <h1>Sign In</h1>
+                    <div class="info">
+                        <input class="email" type="email" placeholder="Email or phone number"> <br>
+                        <input class="email" type="password" placeholder="Password">
+                    </div>
+                    <div class="btn">
+                        <button class="btn-primary" type="submit"><a href="C:/Users/cesar/OneDrive/Escritorio/DEV.FProjects/netflixMockup/iindex.html">Sign In</a></button>
+                    </div>
+                    <div class="help">
+                        <div>
+                            <input value="true" type="checkbox"><label>Remember me</label>
+                        </div>
+
+                        <a href="https://www.netflix.com/dz-en/LoginHelp">Need Help ?</a>
+                    
+                    </div>
+
+                </form>
+
             </div>
-            <h1 class="description_ban">
-                Ocho ladrones toman rehenes en la Fabrica Nacional de 
-                Moneda y Timbre de Espana, mientras el lider de la banda
-                manipula a la policia para cumplir con su plan.
-            </h1>
-        </div> 
-        <div class="button_fade"></div>    
-    </header>
+            
+            <div class="fcbk">
+                <a href="https://facebook.com">
+                    <img src="https://i.ibb.co/LrVMXNR/social-fb.png" alt="Facebook">
+                  </a>
+                <p>Login with Facebook</p>
+            </div>
+            <div class="signup">
+                <p>New to Netflix ?</p>
+                <a href="https://www.netflix.com/dz-en/">Sign up now</a>
+            </div>
+            <div class="more">
+                <p>
+                    This page is protected by Google reCAPTCHA to ensure you're not a bot. <a href="#">Learn more.</a> 
+                </p>
+            </div>
 
-<!-- Originales de Netflix -->
-    <div class="row">
-        <h2>Originales de Netflix</h2>
-        <div class="main_posters">
-            <img class="main_poster poster_large" src="images/large-movie1.jpg" alt="">
-            <img class="main_poster poster_large" src="images/large-movie2.jpg" alt="">
-            <img class="main_poster poster_large" src="images/large-movie3.jpg" alt="">
-            <img class="main_poster poster_large" src="images/large-movie4.jpg" alt="">
-            <img class="main_poster poster_large" src="images/large-movie5.jpg" alt="">
-            <img class="main_poster poster_large" src="images/large-movie6.jpg" alt="">
-            <img class="main_poster poster_large" src="images/large-movie7.jpg" alt="">
-            <img class="main_poster poster_large" src="images/large-movie8.jpg" alt="">
-        </div>
-    </div>
 
-<!-- Populares en Netflix -->
-    <div class="row">
-        <h2>Populares en Netflix</h2>
-        <div class="main_posters">
-            <img class="main_poster" src="images/small-movie1.jpg" alt="">
-            <img class="main_poster" src="images/small-movie2.jpg" alt="">
-            <img class="main_poster" src="images/small-movie3.jpg" alt="">
-            <img class="main_poster" src="images/small-movie4.jpg" alt="">
-            <img class="main_poster" src="images/small-movie5.jpg" alt="">
-            <img class="main_poster" src="images/small-movie6.jpg" alt="">
-            <img class="main_poster" src="images/small-movie7.jpg" alt="">
-            <img class="main_poster" src="images/small-movie8.jpg" alt="">
         </div>
-    </div>
 
-<!-- Tendencias -->
-    <div class="row">
-        <h2>Tendencias</h2>
-        <div class="main_posters">
-            <img class="main_poster" src="images/small-movie1.jpg" alt="">
-            <img class="main_poster" src="images/small-movie2.jpg" alt="">
-            <img class="main_poster" src="images/small-movie3.jpg" alt="">
-            <img class="main_poster" src="images/small-movie4.jpg" alt="">
-            <img class="main_poster" src="images/small-movie5.jpg" alt="">
-            <img class="main_poster" src="images/small-movie6.jpg" alt="">
-            <img class="main_poster" src="images/small-movie7.jpg" alt="">
-            <img class="main_poster" src="images/small-movie8.jpg" alt="">
-        </div>
-    </div>
-
-<!-- Nuevos lanzamientos -->
-    <div class="row">
-        <h2>Nuevos lanzamientos</h2>
-        <div class="main_posters">
-            <img class="main_poster" src="images/small-movie1.jpg" alt="">
-            <img class="main_poster" src="images/small-movie2.jpg" alt="">
-            <img class="main_poster" src="images/small-movie3.jpg" alt="">
-            <img class="main_poster" src="images/small-movie4.jpg" alt="">
-            <img class="main_poster" src="images/small-movie5.jpg" alt="">
-            <img class="main_poster" src="images/small-movie6.jpg" alt="">
-            <img class="main_poster" src="images/small-movie7.jpg" alt="">
-            <img class="main_poster" src="images/small-movie8.jpg" alt="">
-        </div>
-    </div>
-     
+   
+        <footer>
+            
+            <div class="ftr-content">
+                <div class="contact">
+                    <a href="#">Quesions? Contact us.</a>
+                </div>
+                <div class="ftr">
+                    <a href="#">Gift Card Terms</a>
+                    <a href="#">Terms of Use</a>
+                    <a href="#">Privacy Statement</a>
+                </div>
+                <div class="select">
+                    <select>
+                        <option>English</option>
+                        <option>العربية</option>
+                        <option>Français</option>
+                        
+                    </select>
+                </div>
+            </div>
+           
+        </footer>
+   
+</header>
 </body>
 </html>
